@@ -153,8 +153,8 @@ myqueue = my_queue(items)
 print(myqueue)
 print(get_item_my_queue(myqueue,3))
 #print(get_item_double_linked_list(items, 2))
-'''
 
+'''
 #if __name__ == "main":
     #items = [1,2,3,4,5,6,7,8,9,10,11,12,30,15,16]
     #my_list = MyLinkedList()
