@@ -1,28 +1,47 @@
-# Homework-4
-un deque, una cola (queue), y una pila (stack) son estructuras de datos utilizadas para almacenar elementos y acceder a ellos de diferentes maneras
+# **Project Title: Data Structure Performance Comparison**
 
-Deque (doble cola):
-Un deque (double-ended queue) es una estructura de datos que permite la inserción y eliminación eficiente de elementos tanto al principio como al final de la secuencia.
-Se puede utilizar como una lista, pero con la capacidad de agregar y eliminar elementos eficientemente en ambos extremos.
-Se implementa en Python mediante la clase collections.deque.
+## **Introduction**
+Welcome to the project repository for comparing the performance of different data structures! This project focuses on comparing the access times of various data structures implemented natively versus those provided by the Python library. Specifically, implementations of a queue and a doubly linked list were created from scratch, alongside using Python's built-in Queue and Deque classes. The objective is to measure the time taken to access elements within each data structure and analyze their efficiency.
 
-Cola (queue):
-Una cola es una estructura de datos en la que los elementos se agregan al final y se eliminan del principio. Sigue el principio FIFO (First In, First Out).
-En Python, puedes usar queue.Queue o queue.deque de la biblioteca estándar para implementar una cola.
-Es útil en situaciones donde los elementos deben procesarse en el mismo orden en que se agregaron, como la impresión en cola de trabajos.
+## **Objective**
+The primary objective of this project is to evaluate and compare the performance of different data structures when accessing elements. By conducting performance tests on custom implementations of a queue and a doubly linked list, as well as using Python's built-in Queue and Deque classes, we aim to understand the trade-offs and efficiencies of each approach.
 
-Pila (stack):
-Una pila es una estructura de datos en la que los elementos se agregan y eliminan del mismo extremo, conocido como la cima (top) de la pila. Sigue el principio LIFO (Last In, First Out).
-En Python, puedes usar una lista para implementar una pila o usar collections.deque con métodos específicos como append() y pop() para simular una pila.
-Es útil cuando necesitas procesar elementos en el orden inverso al que se agregaron, como en el caso de la inversión de cadenas o la navegación en profundidad en árboles y grafos.
-  
-La idea de esta tarea es comparar los tiempos de acceso a una posicion en una cola creada nativamente, una cola creada con las builtin functions de python y una lista. 
+## **Implementation Details**
+The project involves the following steps:
+
+### **Data Structure Implementations:***
+
+Native implementation of a queue and a doubly linked list.
+Utilization of Python's built-in Queue and Deque classes.
+Performance Testing:
+
+Iteratively varying the size of the input list from i to j elements, incrementing by m in each iteration.
+For each list size, searching for q number of items.
+Recording and summing the access times for searching q items in each list size.
+Data Analysis:
+
+Analyzing the total access times for each data structure at different list sizes.
+Plotting the execution time against the list size to visualize performance trends.
+Usage
+## **To run the performance comparison program, follow these steps:**
+
+Clone the repository from GitHub: git clone https://github.com/your_username/data-structure-performance.git
+Navigate to the project directory: cd data-structure-performance
+Run the performance comparison script: python performance_comparison.py
+Analyze the generated plots to observe the performance of each data structure.
+## **Results**
+The project generates graphical representations of the execution time versus the list size for each data structure. By analyzing these results, insights into the performance characteristics of different data structures can be gained, aiding in informed decision-making regarding their usage in various scenarios.
 
 
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
+Contact
+For any inquiries or assistance, feel free to contact the project maintainer:
 
-
-
+Name: [Juan Esteban Aguilera]
+Email: [juanestebangamba333@gmail.com]
+Thank you for exploring our data structure performance comparison project! We hope it provides valuable insights into optimizing algorithmic efficiency.
 
 COVERAGE: 
 Name                          Stmts   Miss  Cover
