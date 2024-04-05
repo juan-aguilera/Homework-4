@@ -25,7 +25,7 @@ Plotting the execution time against the list size to visualize performance trend
 Usage
 ## **To run the performance comparison program, follow these steps:**
 
-Clone the repository from GitHub: git clone https://github.com/your_username/data-structure-performance.git
+Clone the repository from GitHub: git clone https://github.com/juan-aguilera/Homework-4.git
 Navigate to the project directory: cd data-structure-performance
 Run the performance comparison script: python performance_comparison.py
 Analyze the generated plots to observe the performance of each data structure.
